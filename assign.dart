@@ -13,5 +13,12 @@ void main() {
   //using list data type
   List<String> cars = ["ferrari", "audi", "volkswagen"];
   print("I own the following cars:$cars");
+  
   //using maps data type
+  Map<String, String>countryCapital= {
+  "Kenya" : "Nairobi",
+   "Uganda" : "Kampala",
+    "UK" : "London",
+  };
+  print(countryCapital["Kenya"]);
 }
